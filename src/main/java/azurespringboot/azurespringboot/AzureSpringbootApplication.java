@@ -11,7 +11,7 @@ public class AzureSpringbootApplication {
 
 	@GetMapping("/message")
 	public String message(){
-		return "App deployed to Azure by Sergiu Valcan";
+		return "App deployed to Azure by Sergiu Valcan igrow test";
 	}
 
 	public static void main(String[] args) {
